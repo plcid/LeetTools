@@ -1,0 +1,41 @@
+/* use for js */
+
+#lnklstInput {}
+
+#lnklstContainer {
+    position: relative;
+    width: 95vw;
+    margin: 5px;
+}
+
+#lnklstVisualDoer {}
+
+#lnklstVisualReset {}
+
+#lnklstVisualClear {}
+
+.node {
+    width: 30px;
+    height: 30px;
+    background-color: #282828;
+    border: 1px solid black;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.node:hover {
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+}
+  
+.arrow {
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    display: inline-block;
+}

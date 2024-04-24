@@ -1,0 +1,12 @@
+/* use for js */
+
+#graphInput {}
+
+#graphVisualDoer {}
+
+#graphCanvas {
+    position: relative;
+    display: inline-block;
+    margin:5px;
+    padding:5px;
+}

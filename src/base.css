@@ -1,0 +1,105 @@
+:root {
+    --bg-color : #1A1A1A;
+    --bg-light : #282828;
+    --separate : #3F4947;
+}
+
+* {
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-size: 15px;
+    user-select: none;
+
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position:relative;
+    resize:horizontal;
+}
+
+p {
+    margin: 5px;
+}
+
+#navbar {
+    background-color: var(--bg-light);
+    height: 30px;
+    text-align: center;
+}
+
+#navbar h1 {
+    background-color: var(--bg-light);
+    font-size: 20px;
+}
+
+#container {
+   margin: 0px;
+   width:450px;
+   min-height: 500px;
+
+   margin: auto;
+}
+
+#container h1 {
+    padding: 5px;
+}
+
+#container button {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    width:100%;
+
+    transition: .25s ease-in-out;
+}
+
+#container button:hover {
+    scale:calc(1.15);
+    transition: .25s ease-in-out;
+    background-color: var(--bg-light);
+}
+
+#container .popoutbutton {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    width:30% !important;
+    margin: 5px 2px;
+    background-color: var(--bg-light);
+}
+
+#container .popoutbutton:hover {
+    scale:1 !important;
+}
+
+#container input {
+    border:solid gray .25px;
+    transition: .25s ease-in-out;
+    text-align:center;
+    width:33%;
+}
+
+#container input:hover {
+    background-color:var(--bg-light);
+    transition: .25s ease-in-out;
+    cursor:text;
+}
+
+#separator {
+    border-top:1px solid var(--separate);
+    margin: 2px 0px;
+}
+/* use for js */
+
+#backToHome {}
+
+#statusmsg {
+    margin: 5px;
+}

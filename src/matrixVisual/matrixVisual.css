@@ -1,0 +1,31 @@
+/* use for js */
+
+#matrixInput {}
+
+#matrixVisualDoer {}
+
+#matrixVisualReset {}
+
+#matrixVisualClear {}
+
+#matrixContainer {
+    display: block; /* Display the container as block */
+    margin: 5px;
+}
+
+#matrixContainer .node {
+    display: inline-block; /* Display nodes inline */
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    gap:5px;
+    text-align: center;
+    background-color:#282828;
+    margin: .5px; /* Adjust vertical margin between rows */
+}
+
+#matrixContainer .node:hover {
+    cursor: pointer;
+    background-color:whitesmoke;
+    color:black;
+}

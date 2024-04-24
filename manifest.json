@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "LeetTools",
+    "version": "1.0",
+    "description": "A Functional Set Of Comprehensive Visualization Tools For Data Structures And Algorithms Practice",
+    "permissions": ["activeTab"],
+    "action": {
+        "default_popup": "src/main.html",
+        "default_icon": {
+            "16": "icon.png",
+            "32": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png",
+            "256": "icon.png",
+            "512": "icon.png"
+        },
+        "persistent": true
+    }
+}
